@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Assignment Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <form id="taskForm">
+        <h1>Task Assignment Form</h1>
+        <!-- Employee Name -->
+        Employee Name:
+        <br><br>
+        <input type="text" id="firstName" placeholder="First Name">
+        <p id="firstNameError" style="color: red; display:none">First name should not be empty</p>
+       
+        <input type="text" id="lastName" placeholder="Last Name"><br><br>
+        <p id="lastNameError" style="color: red; display:none">Last name should not be empty</p>
+     <span>First Name</span> <span class="lastName">Last Name</span>
+     <br><br>
+        <!-- Manager Name -->
+        Manager Name:
+        <br><br>
+        <input type="text" id="managerFirstName" placeholder="First Name">
+        <p id="managerFirstNameError" style="color: red; display:none">Manager first name should not be empty</p>
+        <input type="text" id="managerLastName" placeholder="Last Name"><br><br>
+        <p id="managerLastNameError" style="color: red; display:none">Manager last name should not be empty</p>
+        <span>First Name</span> <span class="lastName">Last Name</span>
+
+        <!-- Task ID -->
+        <br><br>
+         <span>Task:</span> <span class="taskId">Task ID:</span>
+        <br><br>
+        <input type="text" id="task">
+        <p id="taskError" style="color: red; display:none">Task should not be empty</p>
+        <input type="text" id="taskIdInput" placeholder="ex:3"><br><br>
+        <p id="taskIdError" style="color: red; display:none">Task ID should not be empty</p>
+
+        <!-- Status -->
+        Status:
+        <br>
+        <input type="radio" name="status" value="Not Started"> Not Started <br>
+        <input type="radio" name="status" value="In Progress"> In Progress <br>
+        <input type="radio" name="status" value="Done"> Done<br>
+        <input type="radio" name="status" value="Awaiting Feedback"> Awaiting Feedback<br><br>
+        <p id="statusError" style="color: red; display:none">Please select a status</p>
+
+        <!-- Additional Notes -->
+        Additional Notes: <br><br>
+        <textarea id="notes"></textarea><br><br>
+        <p id="notesError" style="color: red; display:none">Additional notes should not be empty</p>
+
+        <!-- Instructions -->
+        Instructions:
+        <br><br>
+        <textarea id="instructions"></textarea><br><br>
+        <p id="instructionsError" style="color: red; display:none">Instructions should not be empty</p>
+
+        <!-- Submit Button -->
+        <button type="submit" id="submitBtn">Submit</button>
+    </form>
+
+    <div id="submittedData"></div>
+<script src="./script.js"></script>
+</body>
+
+</html>
