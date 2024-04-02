@@ -30,8 +30,8 @@ You can access a live demo of the Task Assignment Form [here](anku2323.github.io
 
 ## Screenshots
 
-![Task Assignment Form](![screenshot](https://github.com/anku2323/Form/assets/150881471/71313eaa-ac87-4253-8729-49ac3f5e50fc)
-)
+![Task Assignment Form](https://github.com/anku2323/Form/assets/150881471/71313eaa-ac87-4253-8729-49ac3f5e50fc)
+
 
 ## How to Use
 
