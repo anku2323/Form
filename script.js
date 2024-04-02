@@ -64,7 +64,7 @@ document.getElementById('taskForm').addEventListener('submit', function (event) 
     }
 
     if (flag) {
-        // Display submitted data below the form
+        // Display submitted data 
         let submittedData = document.getElementById('submittedData');
         submittedData.innerHTML = `
             <h2>Submitted Data</h2>
